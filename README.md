@@ -43,7 +43,11 @@
 <td>安全框架</td>
 <td><a href="http://spring.io/spring-security" target="_blank">http://spring.io/spring-security</a></td>
 </tr>
-
+<tr>
+<td>phantomjs</td>
+<td>数据爬取</td>
+<td><a href="http://phantomjs.org/download.html" target="_blank">http://phantomjs.org/download.html</a></td>
+</tr>
 <tr>
 <td>Nexus</td>
 <td>私服仓库</td>
@@ -221,7 +225,10 @@ Linux
 
 至此，关于数据库建模的图片我这边就不上传了，到时可以根据sql脚本进行执行
 
+另外：数据爬取到时更新代码会把他摘取掉，由于时间原因今天就先写到这，明天整理更新代码提交
 
+# **关于数据爬取** #
+由于数据爬取刚接触，只是写了几个简单脚本抓取《推酷》《51CTO博客》《CSDN博客》《天涯社区》《博客园》通过代码转换成系统所需要的数据，对图片进行判断获取替换成本系统能查看的图片。只是为了增加调试查看方便。所以数据爬取代码不会更新，如有想交流的朋友可以加我QQ
 
 # **在线文档** #
 <ul class="task-list">
@@ -237,3 +244,4 @@ Linux
 <li><p><a href="https://git-scm.com/book/zh/v2" title="Git官网中文文档" target="_blank">Git官网中文文档</a></p></li>
 
 </ul>
+
